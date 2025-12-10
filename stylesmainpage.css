@@ -1,0 +1,163 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('changedbackground.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 98%;
+  height: 98vh;
+  position: relative;
+}
+
+.logo{
+  width: 110px;
+  cursor: pointer;
+}
+
+.navigation{
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 15px;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+  color: #5f5f5f;
+  font-size: 17px;
+}
+
+.side-content{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+
+.left-column{
+  margin-left: 6%;
+}
+
+.left-column h1{
+  color: #fff;
+  font-size: 90px;
+  line-height: 110px;
+  float: left;
+}
+
+.right-column{
+  float: right;
+  margin-right: 6%;
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+}
+
+#playicon{
+  width: 80px;
+  cursor: pointer;
+}
+
+.right-column p{
+  font-size: 22px;
+  color: #5f5f5f;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+.contact{
+  cursor: pointer;
+  position: absolute;
+  top: 94%;
+  align-items: center;
+  margin-left: 120px;
+  opacity: 90%;
+}
+
+.side-content-specification{
+  width: 80%;
+  position: absolute;
+  top: 15%;
+}
+
+.left-column-specification h1{
+  color: #fff;
+  font-size: 60px;
+  float: left;
+}
+
+.left-column-specification ul li p1{
+  font-size: 22px;
+  color: #595959;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-top:15px;
+  margin-right: 700px;
+}
+
+.contact-specification{
+  opacity: 90%;
+  margin-left: 15px;
+  margin-top: 270px;
+  align-items: center;
+  position: absolute;
+}
+* product section start */
+#product{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    c
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+/* product section end */
+
+
+.left-column-specification h1{
+  padding-top: 20px;
+  color: #fff;
+  font-size: 80px;
+  float: center;
+text-align: center;
+
+}
+
+#songtitle{
+  width: (100%-40px);
+  opacity: 1;
+}
+/*h1{
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+    font-weight: bold;
+}*/
